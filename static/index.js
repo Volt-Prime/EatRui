@@ -341,8 +341,8 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '寒假加作业！';
-    if (score <= 99) return '上课没好好颓废吧？';
+    if (score <= 49) return '菜就多练练';
+    if (score <= 129) return '新年快乐';
     if (score <= 149) return '我超，佬';
     if (score <= 199) return '可以免寒假作业了';
     return '人？';
